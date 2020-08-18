@@ -1,11 +1,11 @@
 import { atom, selector } from "recoil"
 
-const state = atom({
-  key: "state",
-  default: "",
+export const themeState = atom({
+  key: "themeState",
+  default: false,
 })
 
-const selectorState = selector({
+export const selectorState = selector({
   key: "selectorState",
   get: ({ get }) => {
     const text = get(state)

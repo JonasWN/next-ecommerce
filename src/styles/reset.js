@@ -13,6 +13,7 @@ export const GlobalStyle = createGlobalStyle`
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
+  transition: border 0.1s linear;
 }
 ul,
 ol {
@@ -40,8 +41,9 @@ body {
   min-height: 100vh;
   scroll-behavior: smooth;
   line-height: 1.5;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Lato', sans-serif;
   -ms-overflow-style: none;
+  transition: background 0.1s linear;
 }
  
 ul,
