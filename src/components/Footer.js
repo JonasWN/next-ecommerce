@@ -33,21 +33,19 @@ export const Footer = () => {
 }
 
 const StyledFooter = styled.footer`
-  padding: 1.5rem;
+  padding: 0.8rem 1.5rem;
   border-top: ${props => props.theme.colors.border};
 
   ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 30px;
 
     & li {
       text-transform: uppercase;
       font-size: 0.6rem;
-      color: #9ba4ae;
 
-      a {
+      & a {
         display: flex;
         flex-direction: column;
         align-items: center;

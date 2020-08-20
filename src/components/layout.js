@@ -6,7 +6,6 @@ import { Container } from "../styles/layoutStyle"
 import { Theme, DarkTheme } from "../styles/theme"
 import { ThemeProvider } from "styled-components"
 import { Header } from "./Header"
-import { Footer } from "./Footer"
 
 const Layout = ({ children, title }) => {
   const darkTheme = useRecoilValue(themeState)
@@ -28,7 +27,6 @@ const Layout = ({ children, title }) => {
       <Container>
         <Header />
         {children}
-        <Footer />
       </Container>
     </ThemeProvider>
   )

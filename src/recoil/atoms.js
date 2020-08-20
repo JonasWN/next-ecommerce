@@ -5,6 +5,11 @@ export const themeState = atom({
   default: false,
 })
 
+export const productList = atom({
+  key: "productList",
+  default: [{}],
+})
+
 export const selectorState = selector({
   key: "selectorState",
   get: ({ get }) => {
