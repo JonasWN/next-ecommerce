@@ -1,7 +1,7 @@
-import React from "react"
-import styled from "styled-components"
-import { Home, Search, User } from "@styled-icons/feather/"
-import { ActiveLink } from "./ActiveLink"
+import React from 'react'
+import styled from 'styled-components'
+import { Home, Search, User } from '@styled-icons/feather/'
+import { ActiveLink } from './ActiveLink'
 
 export const Footer = () => {
   return (

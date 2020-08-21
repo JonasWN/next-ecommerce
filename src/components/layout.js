@@ -1,11 +1,12 @@
-import Head from "next/head"
-import { useRecoilValue } from "recoil"
-import { themeState } from "../recoil/atoms"
-import { GlobalStyle } from "../styles/reset"
-import { Container } from "../styles/layoutStyle"
-import { Theme, DarkTheme } from "../styles/theme"
-import { ThemeProvider } from "styled-components"
-import { Header } from "./Header"
+import { React } from 'react'
+import Head from 'next/head'
+import { useRecoilValue } from 'recoil'
+import { themeState } from '../recoil/atoms'
+import { GlobalStyle } from '../styles/reset'
+import { Container } from '../styles/layoutStyle'
+import { Theme, DarkTheme } from '../styles/theme'
+import { ThemeProvider } from 'styled-components'
+import { Header } from './Header'
 
 const Layout = ({ children, title }) => {
   const darkTheme = useRecoilValue(themeState)

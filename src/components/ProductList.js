@@ -1,6 +1,6 @@
-import React from "react"
-import styled from "styled-components"
-import { ProductItem } from "./ProductItem"
+import React from 'react'
+import styled from 'styled-components'
+import { ProductItem } from './ProductItem'
 
 export const ProductList = () => {
   return (
@@ -37,35 +37,35 @@ const StyledProductList = styled.main`
 `
 const products = [
   {
-    name: "Switz Rolex",
-    price: "255.00",
+    name: 'Switz Rolex',
+    price: '255.00',
   },
   {
-    name: "Switz Rolex",
-    price: "255.00",
+    name: 'Fossil',
+    price: '355.00',
   },
   {
-    name: "Switz Rolex",
-    price: "255.00",
+    name: 'Daniel Wellington',
+    price: '422.00',
   },
   {
-    name: "Switz Rolex",
-    price: "255.00",
+    name: 'Rolex Royal',
+    price: '545.00',
   },
   {
-    name: "Switz Rolex",
-    price: "255.00",
+    name: 'Switz',
+    price: '625.00',
   },
   {
-    name: "Switz Rolex",
-    price: "255.00",
+    name: 'Fossil Light',
+    price: '185.00',
   },
   {
-    name: "Switz Rolex",
-    price: "255.00",
+    name: 'Amarno',
+    price: '422.00',
   },
   {
-    name: "Switz Rolex",
-    price: "255.00",
+    name: 'Gucci',
+    price: '645.00',
   },
 ]

@@ -1,4 +1,5 @@
-import { RecoilRoot } from "recoil"
+import React from 'react'
+import { RecoilRoot } from 'recoil'
 
 function MyApp({ Component, pageProps }) {
   return (

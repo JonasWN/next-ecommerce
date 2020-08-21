@@ -1,4 +1,4 @@
-import { atom, selector } from "recoil"
+import { atom } from "recoil"
 
 export const themeState = atom({
   key: "themeState",
@@ -8,12 +8,4 @@ export const themeState = atom({
 export const productList = atom({
   key: "productList",
   default: [{}],
-})
-
-export const selectorState = selector({
-  key: "selectorState",
-  get: ({ get }) => {
-    const text = get(state)
-    return text.length
-  },
 })

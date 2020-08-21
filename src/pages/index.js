@@ -1,6 +1,7 @@
-import Layout from "../components/Layout"
-import { Footer } from "../components/Footer"
-import { ProductList } from "../components/ProductList"
+import React from 'react'
+import Layout from '../components/Layout'
+import { Footer } from '../components/Footer'
+import { ProductList } from '../components/ProductList'
 
 function HomePage() {
   return (

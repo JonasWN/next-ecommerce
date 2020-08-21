@@ -1,7 +1,7 @@
-import React from "react"
-import styled from "styled-components"
-import { Heart } from "@styled-icons/feather"
-import Link from "next/link"
+import React from 'react'
+import styled from 'styled-components'
+import { Heart } from '@styled-icons/feather'
+import Link from 'next/link'
 
 export const ProductItem = ({ image, name, price }) => {
   return (

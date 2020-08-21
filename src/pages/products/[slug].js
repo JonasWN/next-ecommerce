@@ -1,8 +1,7 @@
-import React from "react"
-import styled from "styled-components"
-import Layout from "../../components/layout"
-import { ShoppingBag } from "@styled-icons/feather"
-import { ProductItem } from "../../components/ProductItem"
+import React from 'react'
+import styled from 'styled-components'
+import Layout from '../../components/layout'
+import { ShoppingBag } from '@styled-icons/feather'
 
 const Product = ({ slug }) => {
   return (
@@ -95,6 +94,6 @@ export const getStaticPaths = async () => {
   }
 }
 
-const routes = ["1", "2", "3", "4", "5", "6", "7", "8"]
+const routes = ['1', '2', '3', '4', '5', '6', '7', '8']
 
 export default Product

@@ -1,8 +1,8 @@
-import React from "react"
-import styled from "styled-components"
-import { useRecoilState } from "recoil"
-import { themeState } from "../recoil/atoms"
-import { ShoppingCart, Moon, Sun } from "@styled-icons/feather/"
+import React from 'react'
+import styled from 'styled-components'
+import { useRecoilState } from 'recoil'
+import { themeState } from '../recoil/atoms'
+import { ShoppingCart, Moon, Sun } from '@styled-icons/feather/'
 
 export const Header = () => {
   const [darkTheme, setDarkTheme] = useRecoilState(themeState)
